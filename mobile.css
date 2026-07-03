@@ -29,19 +29,30 @@
 }
 
 .happy-birthday{
-
-    top:-120px;
-
+    position:absolute;
+    top:-95px;
     left:50%;
-
     transform:translateX(-50%);
 
     width:100%;
 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
     text-align:center;
 
-    font-size:34px;
+    font-family:'Metal Mania', cursive;
 
+    font-size:22px;
+
+    line-height:1.2;
+
+    white-space:normal;
+
+    padding:0 10px;
+
+    z-index:1000;
 }
 
 /*Objetos de la mesa*/
